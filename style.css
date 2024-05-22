@@ -1,0 +1,787 @@
+/* reinitialisation index */
+
+:root{
+    margin: 0px;
+    padding: 0px;
+    color: black;
+    background-color: white;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+li{
+    list-style: none;
+}
+/* ............ */
+/*......stylisation de la page accueil........*/
+
+
+.menucontainer{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 15px;
+    align-items: center;
+}
+.menucontainer .listMenu ul{
+display: flex;
+justify-content: space-between;
+align-items: center;
+gap: 35px;
+font-weight: bold;
+}
+
+.menucontainer .listMenu ul li:nth-child(2){
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    padding: 0px 35px;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    align-items: center;
+    padding: 20px 80px;
+    flex-direction: row;
+    margin-bottom: 50px;
+
+}
+
+.content .imagecontent{
+    border-radius: 100%;
+    width: 300px;
+    height: 300px;
+    object-fit: fill;
+}
+
+.imagecontent img{
+    filter: grayscale(50%);
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    object-fit: cover;
+}
+.textcontent {
+    padding: 10px;
+    max-width: 150px;
+}
+.textcontent h2{
+    font-size: 40px;
+    font-weight: bold;
+}
+.textcontent h3{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.content .menu{
+  display: flex; 
+  justify-content: space-between;
+  padding: 0px 80px;
+  align-items: center;
+  gap: 0px;
+}
+.menu .cv{
+    display: flex;
+    justify-content: center;
+    border: 50px solid orange;
+    border-radius: 100%;
+    width: 0px;
+    height: 0px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.menu .projets{
+    display: flex;
+    justify-content: center;
+    border: 50px solid red;
+    border-radius: 100%;
+    width: 0px;
+    height: 0px;
+    font-weight: bold;
+    margin-top: 10px; 
+}
+.menu .contact{
+    display: flex;
+    justify-content: center;
+    border: 50px solid aqua;
+    border-radius: 100%;
+    width: 0px;
+    height: 0px;
+    font-weight: bold;
+    margin-top: 10px; 
+}
+
+/* ..............*/
+
+
+/*............stylisation de la page cv........ */
+.Vitae{
+    text-indent: 100px;
+}
+
+.element2{
+    padding: 10px 5px; 
+}
+.element3{
+    display: flex;
+    justify-content:space-between;
+    flex-direction: row-reverse; 
+    padding-right: 130px;
+}
+.part{
+    border-top: 1px solid black;
+    text-indent: 200px;
+}
+.comp{
+    border-top: 1px solid black;
+    text-indent: 200px;
+}
+.lang{
+    border-top: black solid 1px ;
+    text-indent: 200px;
+}
+.foot{
+    display: flex;
+    justify-content: space-around;
+    padding-block-end: 40px;
+    border-top: 1px solid gray;
+}
+
+/*.............*/
+
+/*.........stylisation de la page contact.........*/
+
+
+.infocontainer{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding: 20px 70px;
+    margin-bottom: 300px;
+    margin-top: 80px;  
+}
+.infocontainer2{
+    padding-left: 10px;
+}
+
+.formcontainer{
+    max-width: 550px;
+}
+
+.formcontainer form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 30px;
+    border-radius: 30%;  
+}
+.formcontainer button{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    background-color: #eea302;
+    border: 1px solid black;
+    margin-top: 30px;
+}
+.formcontainer  input{
+    border: 2px solid rgb(0, 0, 0);
+    margin-top: 10px;
+    width: 250px;
+    height: 50px;
+}
+.formcontainer textarea{
+    border: 2px solid rgb(0, 0, 0);
+    margin-top: 10px;
+    width: 300px;
+}
+.formcontainer  label{
+    font-weight: bold;
+}
+
+/*................*/
+
+
+/*.........stylisation de la page projet...........*/
+
+.proj{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 10px 50px;
+    margin-bottom: 50px;
+}
+.title{
+    text-indent: 100px ;
+}
+.head{
+    text-indent: 100px;
+    margin-bottom: 50px;
+}
+
+.cadre1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 50px;
+}
+.text1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: left;
+    text-align: left;
+    margin-bottom: 1em
+    
+}
+.img1{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    object-fit: fill;
+    padding-right: 169px;
+}
+.img1 img{
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px 50px;
+    align-items: center;
+    border: 1px solid   grey;
+    border-radius: 16px 16px;
+    aspect-ratio: 1080px/1920px;
+}
+.cadre2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.video1{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    object-fit: cover;
+    padding-right: 150px;
+}
+.video1 video{
+    aspect-ratio: 1080px/1920px;
+    border-radius: 16px 16px;
+    object-fit: fill;
+    width: 200px;
+    height: 200px
+}
+.cadre3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 50px;
+    margin-top: 80px;
+}
+.video4{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    object-fit: cover;
+    padding-right: 150px;
+}
+.video4 video{
+    object-fit: fill;
+    width: 200px;
+    height: 200px;
+    border-radius: 16px 16px;
+    aspect-ratio: 1080px/1920px;
+}
+.body{
+    background-color: chocolate;
+}
+
+/*....................*/
+/*.......................RESPONSIVE PAGE ACCUEIL........................*/
+/*stylisation phone*/
+
+@media (min-width:280px) and (max-width:530px){
+    .menucontainer{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 30px 8px;
+        align-items: center;
+    }
+    .content{
+        display: flex;
+        justify-content: center;
+        gap: 35px;
+        align-items: center;
+        padding: 20px 80px;
+        flex-direction: column;
+        margin-bottom: 25px;
+    }
+    .textcontent {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 10px 5px;
+        max-width: 150%;
+    }
+    .para{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+    }
+    .content .menu{
+        display: flex; 
+        justify-content: space-between;
+        flex-direction: row;
+        padding: 0px 80px;
+        align-items: center;
+        text-align: center;
+        gap: 10px;
+      }
+      
+    .foot{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding-block-end: 40px;
+        border-top: 1px solid black;
+    }
+}
+/* stylisation tablette*/
+
+@media (min-width:540px) and (max-width:1024px){
+    .menucontainer{
+        display: flex;
+        justify-content: space-between;
+        padding: 5px 15px;
+        align-items: center;
+    }
+    .content{
+        display: flex;
+        justify-content: center;
+        gap: 35px;
+        align-items: center;
+        text-align: center;
+        padding: 80px 20px;
+        flex-direction: column;
+        margin-bottom: 25px;
+    }
+    .textcontent {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 5px 2px;
+        max-width: 200%;
+    }
+    .para{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+    }
+    .content .menu{
+        display: flex; 
+        justify-content: space-between;
+        flex-direction: row;
+        padding: 0px 80px;
+        align-items: center;
+        text-align: center;
+        gap: 10px;
+      }
+    .foot{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding-block-end: 40px;
+        border-top: 1px solid black;
+    }
+}
+/*stylisation PC*/
+@media (min-width:1024px) and (max-width:2560px){
+    .menucontainer{
+        display: flex;
+        justify-content: space-between;
+        padding: 5px 15px;
+        align-items: center;
+    }
+    .content{
+        display: flex;
+        justify-content: center;
+        gap: 35px;
+        align-items: center;
+        text-align: center;
+        padding: 20px 8px;
+        flex-direction: row;
+        margin-bottom: 25px;
+    }
+    .imagecontent img{
+        filter: grayscale(50%);
+        width: 300px;
+        height: 300px;
+        border-radius: 100%;
+        object-fit: cover;
+    }
+    .textcontent {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        text-align: left;
+        padding: 5px 2px;
+        max-width: 100%;
+    }
+    .para{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        align-items: center;
+        text-align: left;
+    }
+    .entete{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: left;
+        text-align: left;
+        font-size: 40px;
+        font-weight: bold;
+        padding-right: 400px;
+    }
+    .content .menu{
+        display: flex; 
+        justify-content: space-between;
+        flex-direction: row;
+        padding-right: 190px;
+        align-items: right;
+        text-align: center;
+        gap: 30px;
+      }
+    
+    .foot{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        align-items: center;
+        text-align: center;
+        padding-block-end: 40px;
+        border-top: 1px solid black;
+    }
+}
+/*.............................RESPONSIVE PAGE CV..............................*/
+
+/*stylisation phone*/
+@media (min-width:280px) and (max-width:530px){
+    .Vitae{
+        display: flex;
+        justify-content: justify;
+        flex-direction: row;
+        text-align: justify; 
+        text-indent: 0px;
+    }
+    .element2{
+        display: flex;
+        justify-content: right;
+        flex-direction: column; 
+    }
+    .element3{
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column-reverse; 
+    }
+    .fond{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+    .part{
+        display: flex;
+        justify-content: justify;
+        flex-direction: column;
+        text-align: justify; 
+        text-indent: 0px;
+        border-top: 1px solid black; 
+    }
+    .comp{
+        display: flex;
+        justify-content: justify;
+        flex-direction: column;
+        text-align: justify; 
+        text-indent: 0px;
+        border-top: 1px solid black;  
+    }
+    .lang{
+        display: flex;
+        justify-content: justify;
+        flex-direction: column;
+        text-align: justify; 
+        text-indent: 0px;
+        border-top: black solid 1px ;  
+    } 
+}
+/* stylisation tablette*/
+
+@media (min-width:540px) and (max-width:1024px){
+    .Vitae{
+        display: flex;
+        justify-content: justify;
+        flex-direction: row;
+        text-align: right; 
+        text-indent: 0px;
+    }
+    .element2{
+        display: flex;
+        justify-content: right;
+        flex-direction: column;
+    }
+    .element3{
+        display: flex;
+        justify-content:space-between;
+        flex-direction: row-reverse;
+        padding-right: 150px; 
+    }
+    .fond{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+    .part{
+        display: flex;
+        justify-content: justify;
+        flex-direction: column;
+        text-align: justify; 
+        text-indent: 0px;
+        border-top: 1px solid black; 
+    }
+    .comp{
+        display: flex;
+        justify-content: justify;
+        flex-direction: column;
+        text-align: justify; 
+        text-indent: 0px;
+        border-top: 1px solid black;
+        
+    }
+    .lang{
+        display: flex;
+        justify-content: justify;
+        flex-direction: column;
+        text-align: justify; 
+        text-indent: 0px;
+        border-top: black solid 1px ;  
+    }
+}
+/*stylisation PC*/
+@media (min-width:1024px) and (max-width:2560px){
+    .Vitae{
+        display: flex;
+        justify-content: justify;
+        flex-direction: row;
+        text-align: right; 
+        text-indent: 0px;
+    }
+    .element2{
+        display: flex;
+        justify-content: right;
+        flex-direction: column;
+    }
+    .element3{
+        display: flex;
+        justify-content:space-between;
+        flex-direction: row-reverse;
+        padding-right: 150px; 
+    }
+    .fond{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+    .part{
+        display: flex;
+        justify-content: justify;
+        flex-direction: column;
+        text-align: justify; 
+        text-indent: 0px;
+        border-top: 1px solid black; 
+    }
+    .comp{
+        display: flex;
+        justify-content: justify;
+        flex-direction: column;
+        text-align: justify; 
+        text-indent: 0px;
+        border-top: 1px solid black;
+        
+    }
+    .lang{
+        display: flex;
+        justify-content: justify;
+        flex-direction: column;
+        text-align: justify; 
+        text-indent: 0px;
+        border-top: black solid 1px ;  
+    }
+}
+/*.....................RESPONSIVE DE LA PAGE CONTACT.................*/
+/*stylisation phone*/
+@media (min-width:280px) and (max-width:530px){
+.infocontainer{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 20px 40px;
+    margin-bottom: 100px;
+    margin-top: 20px;  
+}
+.infocontainer2{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 10px;
+}
+.formcontainer form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 30px;
+    border-radius: 30%;  
+}
+.formcontainer button{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    background-color: #eea302;
+    border: 1px solid black;
+}
+.formcontainer  input{
+    border: 2px solid rgb(0, 0, 0);
+    margin-top: 0px;
+    width: 350px;
+    height: 30px;
+}
+.formcontainer textarea{
+    border: 2px solid rgb(0, 0, 0);
+    margin-top: 0px;
+    width: 350px;
+}
+}
+/* stylisation tablette*/
+
+@media (min-width:540px) and (max-width:1024px){
+.infocontainer{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 20px 40px;
+    margin-bottom: 100px;
+    margin-top: 20px;  
+}
+.infocontainer2{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: left;
+    padding-left: 10px;
+}
+.formcontainer form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:wrap ;
+    gap: 30px;
+    border-radius: 30%;  
+}
+.formcontainer button{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    background-color: #eea302;
+    border: 1px solid black;
+}
+.formcontainer textarea{
+    border: 2px solid rgb(0, 0, 0);
+    margin-top: 0px;
+    width: 350px;
+}
+}
+/*.................RESPONSIVE DE LA PAGE PROJET..........
+/*stylisation phone*/
+@media (min-width:280px) and (max-width:530px){
+    .proj{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        padding: 10px 50px;
+        margin-bottom: 50px;
+    }
+    .title{
+        text-indent: 100px ;
+    }
+    .head{
+        text-indent: 100px;
+        margin-bottom: 50px;
+    }
+    .cadre1{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        gap: 50px;
+    }
+    .text1{
+        display: flex;
+        flex-direction: row;
+        justify-content: justify;
+        align-items: center;
+        text-align: justify;
+        padding-right: 150px;
+    }
+    .img1{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        object-fit: fill;
+        padding-right: 169px;
+    }
+    .cadre2{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        gap: 50px;
+    }
+    .video1{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        object-fit: cover;
+        padding-right: 150px;
+    }
+    .cadre3{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        gap: 50px;
+        margin-top: 80px;
+    }
+    .video4{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        object-fit: cover;
+        padding-right: 150px;
+    }
+}
